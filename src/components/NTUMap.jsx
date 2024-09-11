@@ -134,7 +134,7 @@ const NTUMap = () => {
 
         {/* Async Loading of Google Maps API */}
         <LoadScriptNext
-          googleMapsApiKey="AIzaSyCxUJqFU8XnSd_PQ_i0CjiHJhOrHv7ldfo" 
+          googleMapsApiKey="" 
           libraries={libraries}  // Use the static libraries array
           async  // Load the API asynchronously
         >
@@ -142,7 +142,7 @@ const NTUMap = () => {
             mapContainerStyle={containerStyle}
             center={center}
             zoom={16}
-            options={{ mapId: "6e120bcd575d29f7" }}
+            options={{ mapId: "" }}
             onLoad={map => (mapRef.current = map)}
           >
             {/* Render the directions if they are available */}
